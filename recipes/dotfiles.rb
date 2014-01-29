@@ -14,6 +14,7 @@ bash "install dotfiles" do
     flags "-e"
     cwd "/home/vagrant/dotfiles"
     code <<-EOH
+        cp _gitconfig.example _gitconfig
         ./install.sh
     EOH
 end
