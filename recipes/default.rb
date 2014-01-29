@@ -6,3 +6,4 @@ when "debian"
 end
 
 include_recipe "co3k-dev::dotfiles"
+include_recipe "co3k-dev::config_iptables"

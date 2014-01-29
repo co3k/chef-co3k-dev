@@ -10,3 +10,4 @@ depends "yum"
 depends "apt"
 depends "git"
 depends "ssh_known_hosts"
+depends 'iptables'
