@@ -9,5 +9,6 @@ version          '0.1.0'
 depends "yum"
 depends "apt"
 depends "git"
+depends "vim"
 depends "ssh_known_hosts"
 depends 'iptables'
