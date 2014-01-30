@@ -11,10 +11,10 @@ end
 
 bash "install dotfiles" do
     user "vagrant"
+    environment "HOME" => "/home/vagrant"
     flags "-e"
     cwd "/home/vagrant/dotfiles"
     code <<-EOH
         cp _gitconfig.example _gitconfig
-        ./install.sh
     EOH
 end
